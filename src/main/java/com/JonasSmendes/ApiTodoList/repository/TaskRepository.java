@@ -8,5 +8,5 @@ import java.util.List;
 
 public interface TaskRepository extends JpaRepository<Task, Long> {
 
-    List<Category> findByCategory(Category category);
+    List<Task> findByCategory(Category category);
 }
