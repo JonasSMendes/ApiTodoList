@@ -30,6 +30,7 @@ public class DataCategoryInitializer {
             Category category = new Category();
             category.setId(id);
             category.setName(name);
+            repository.save(category);
         }
     }
 }
